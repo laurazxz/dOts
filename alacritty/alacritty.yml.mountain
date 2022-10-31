@@ -1,0 +1,79 @@
+env:
+  TERM: alacritty
+
+window:
+  opacity: 1
+
+
+  padding:
+    x: 25
+    y: 25
+
+    dynamic_padding:  true
+    decoration: none
+
+font:
+  normal:
+      family: #ComicMono 
+        Comic Code Ligatures SemiBold 
+        #VictorMono Nerd Font Mono
+      style: SemicBold,Bold 
+        #SemiBold Italic,Regular 
+        #SemiBold Italic
+        #ComicMono 
+      #DinaRemasterII
+  bold:
+    family: Comic Code Ligatures Bold
+    style: Bold
+      #DinaRemasterII
+
+
+  italic:
+    family: ComicMono
+
+  bold_italic:
+    family: ComicMono
+
+  size: 10
+
+
+colors:
+  primary:
+    background: '0x0f0f0f'
+    foreground: '0xf0f0f0'
+
+  normal:
+    black:   '0x262626'
+    red:     '0xac8a8c'
+    green:   '0x8aac8b'
+    yellow:  '0xaca98a'
+    blue:    '0x8f8aac'
+    magenta: '0xac8aac'
+    cyan:    '0x8aabac'
+    white:   '0xe7e7e7'
+    orange:  '0xc6a679' #Here for reference
+
+  bright:
+    black:   '0x4c4c4c'
+    red:     '0xc49ea0'
+    green:   '0x9ec49f'
+    yellow:  '0xc4c19e'
+    blue:    '0xa39ec4'
+    magenta: '0xc49ec4'
+    cyan:    '0x9ec3c4'
+    white:   '0xf5f5f5'
+    orange:  '0xceb188' #Here for reference 
+
+# cursor:
+      #style: Underline
+
+      #unfocused_hollow: true
+
+  live_config_reload: true
+                 
+key_bindings:
+
+  - { key: Key0, mods: Control, action: ResetFontSize }
+
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+

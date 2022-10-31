@@ -15,16 +15,23 @@ window:
 font:
   normal:
       family: #ComicMono 
-        Comic Code Ligatures SemiBold 
+        #Comic Code Ligatures SemiBold 
+        DinaRemasterII
         #VictorMono Nerd Font Mono
-      style: SemicBold,Bold 
+      style: Bold 
         #SemiBold Italic,Regular 
         #SemiBold Italic
         #ComicMono 
       #DinaRemasterII
   bold:
-    family: Comic Code Ligatures Bold
-    style: Bold
+    family:
+
+     DinaRemasterII 
+  
+  #Comic Code Ligatures Bold
+    
+  style: SemiBold
+      
       #DinaRemasterII
 
 
@@ -36,48 +43,35 @@ font:
 
   size: 10
 
+
 colors:
-  # Default colors
   primary:
-    background: '#151515'
-    foreground:  '#f7d4ac'
+    background: '0x0f0f0f'
+    foreground: '0xf0f0f0'
 
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '#E5E4E2'
-    cursor: '#E5E4E2'
-
-  # Normal colors
   normal:
-    black:   '0x212121'
-    red:     '0xf07178'
-    green:   '#E5E4E2'
-    yellow:  '0xffcb6b'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x89ddff'
-    white:   '0xeeffff'
+    black:   '0x262626'
+    red:     '0xac8a8c'
+    green:   '0x8aac8b'
+    yellow:  '0xaca98a'
+    blue:    '0x8f8aac'
+    magenta: '0xac8aac'
+    cyan:    '0x8aabac'
+    white:   '0xe7e7e7'
+    orange:  '0xc6a679' #Here for reference
 
-  # Bright colors
   bright:
-    black:   '0x4a4a4a'
-    red:     '0xf07178'
-    green:   '0xc3e88d'
-    yellow:  '0xffcb6b'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x89ddff'
-    white:   '0xffffff'
+    black:   '0x4c4c4c'
+    red:     '0xc49ea0'
+    green:   '0x9ec49f'
+    yellow:  '0xc4c19e'
+    blue:    '0xa39ec4'
+    magenta: '0xc49ec4'
+    cyan:    '0x9ec3c4'
+    white:   '0xf5f5f5'
+    orange:  '0xceb188' #Here for reference 
 
-  indexed_colors:
-    - { index: 16, color: '0xf78c6c' }
-    - { index: 17, color: '0xff5370' }
-    - { index: 18, color: '0x303030' }
-    - { index: 19, color: '0x353535' }
-    - { index: 20, color: '0xb2ccd6' }
-    - { index: 21, color: '0xeeffff' }
-
-      # cursor:
+# cursor:
       #style: Underline
 
       #unfocused_hollow: true

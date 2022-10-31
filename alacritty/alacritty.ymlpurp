@@ -1,0 +1,93 @@
+env:
+  TERM: alacritty
+
+window:
+  opacity: 1
+
+
+  padding:
+    x: 25
+    y: 25
+
+    dynamic_padding:  true
+    decoration: none
+
+font:
+  normal:
+      family: #ComicMono 
+        #DinaRemasterII
+        Comic Code Ligatures SemiBold 
+        #VictorMono Nerd Font Mono
+      style: SemicBold,Bold 
+        #SemiBold Italic,Regular 
+        #SemiBold Italic
+        #ComicMono 
+        #DinaRemasterII
+  bold:
+    family: Comic Code Ligatures Bold
+    style: Bold
+      #DinaRemasterII
+
+
+  italic:
+    family: ComicMono
+
+  bold_italic:
+    family: ComicMono
+
+  size: 10
+
+colors:
+  # Default colors
+  primary:
+    background: '#151515'
+    foreground:  '#d2afff'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#828290'
+    cursor: '#fdfdfe'
+    style: 'line'
+
+  normal:
+    black:   '#fdfdfe'
+    red:     '#fdfdfe'
+    green:   '#c48cfc'
+    yellow:  '#828290'
+    blue:    '#fdfdfe'
+    magenta: '#fdfdfe'
+    cyan:    '#fdfdfe'
+    white:   '#c48cfc'
+
+  # Bright colors
+  bright:
+    black:   '#fdfdfe'
+    red:     '#c48cfc'
+    green:   '#C48cfc'
+    yellow:  '#fdfdfe'
+    blue:    '#fdfdfe'
+    magenta: '#c48cfc'
+    cyan:    '#828290'
+    white:   '#828290'
+
+  indexed_colors:
+    - { index: 16, color: '#c48cfc' }
+    - { index: 17, color: '#fdfdfe' }
+    - { index: 18, color: '#d2afff' }
+    - { index: 19, color: '#d2afff' }
+    - { index: 20, color: '#828290' }
+    - { index: 21, color: '#c48cfc' }
+
+      # cursor:
+      #style: Underline
+
+      #unfocused_hollow: true
+
+  live_config_reload: true
+                 
+key_bindings:
+
+  - { key: Key0, mods: Control, action: ResetFontSize }
+
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+

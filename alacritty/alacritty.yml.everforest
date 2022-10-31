@@ -1,0 +1,64 @@
+env:
+  TERM: alacritty
+
+window:
+  opacity: 1
+
+
+  padding:
+    x: 25
+    y: 25
+
+    dynamic_padding:  true
+    decoration: none
+
+font:
+  normal:
+      family: #ComicMono
+        #Comic Code Ligatures SemiBold
+        #VictorMono Nerd Font Mono
+        DinaRemasterII
+      style: SemicBold,Bold
+        #SemiBold Italic,Regular
+        #SemiBold Italic
+        #ComicMono
+        #DinaRemasterII
+  bold:
+    family:
+      DinaRemasterII
+      #Comic Code Ligatures Bold
+    style: Bold
+      #DinaRemasterII
+
+
+  italic:
+    family: ComicMono
+
+  bold_italic:
+    family: ComicMono
+
+  size: 12
+
+
+everforest_dark_hard: &everforest_dark_hard
+    primary:
+      background: '#2b3339'
+      foreground: '#d3c6aa'
+    normal:
+      black:   '#4b565c'
+      red:     '#e67e80'
+      green:   '#a7c080'
+      yellow:  '#dbbc7f'
+      blue:    '#7fbbb3'
+      magenta: '#d699b6'
+      cyan:    '#83c092'
+      white:   '#d3c6aa'
+    bright:
+      black:   '#4b565c'
+      red:     '#e67e80'
+      green:   '#a7c080'
+      yellow:  '#dbbc7f'
+      blue:    '#7fbbb3'
+      magenta: '#d699b6'
+      cyan:    '#83c092'
+      white:   '#d3c6aa'

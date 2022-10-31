@@ -1,18 +1,23 @@
 #Apps
+alt + shift + 3
+  librewolf https://www.reddit.com
 alt + shift + t
   tor-browser
 alt + shift + s
-
+alt + o
+  obsidian
 alt + e
   librewolf
 alt + a      
   alacritty
+alt + shift + d
+  librewolf https://discord.com/channels/@me/1030801397324709898
 
 alt + shift + l
 		betterlockscreen -l 
 
 alt + r
-	dmenu_run -c -l 10 -nb \#151515 -sb \#f7d4ac -fn ComicMono
+	dmenu_run -c -l 10 -nb \#0f0f0f -sb \#f0f0f0 -fn ComicMono
 alt + shift +r 
   rofi -no-lazy-grab -show drun -modi run,drun,window -theme $HOME/.config/rofi/launcher/style -drun-icon-theme "candy-icons"
 alt + shift + 2
@@ -110,6 +115,8 @@ super + y
 super + g
 	bspc node -s biggest.window
 
+super + shift + l
+   bspc node -s $(bspc query -N -n .marked) && bspc node -g marked
 #
 # state/flags
 #
